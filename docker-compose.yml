@@ -9,6 +9,8 @@ services:
     
   node-app:
     build: .
+    # pull image form your docker hub repository
+    #image: sarodruiz/node-docker-app
     #ports:
     #  - "3000:3000"
     environment:

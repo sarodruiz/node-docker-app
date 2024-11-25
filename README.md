@@ -26,3 +26,12 @@ docker-compose down -v
 docker logs node-docker-app-node-app-1 -f
 
 docker-compose -f docker-compose.yml -f docker-compose.dev.yml up -d --scale node-app=2
+
+# DEPLOY
+
+Launch an Ubuntu virtual machine
+Install Docker and docker-compose
+Create a directory named app
+Clone the application repository into the app directory
+Set the environment variables
+Use docker run command
